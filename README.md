@@ -1,2 +1,2 @@
 # Formatting
-Common source code formatting files
+Common source code formatting files.
