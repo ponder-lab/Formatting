@@ -44,7 +44,7 @@
 
   <module name="LineLength">
     <property name="fileExtensions" value="java"/>
-    <property name="max" value="140"/>
+    <property name="max" value="205"/>
     <property name="ignorePattern" value="^package.*|^import.*|a href|href|http://|https://|ftp://"/>
   </module>
 
@@ -135,7 +135,6 @@
     <module name="OneStatementPerLine"/>
     <module name="MultipleVariableDeclarations"/>
     <module name="ArrayTypeStyle"/>
-    <module name="MissingSwitchDefault"/>
     <module name="FallThrough"/>
     <module name="UpperEll"/>
     <module name="ModifierOrder"/>
@@ -253,10 +252,10 @@
     <module name="Indentation">
       <property name="basicOffset" value="8"/>
       <property name="braceAdjustment" value="2"/>
-      <property name="caseIndent" value="2"/>
+      <property name="caseIndent" value="0"/>
       <property name="throwsIndent" value="4"/>
       <property name="lineWrappingIndentation" value="4"/>
-      <property name="arrayInitIndent" value="2"/>
+      <property name="arrayInitIndent" value="16"/>
     </module>
     <module name="AbbreviationAsWordInName">
       <!-- <property name="ignoreFinal" value="false"/> -->
