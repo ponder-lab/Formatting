@@ -39,7 +39,7 @@
       <property name="ignoreComments" value="true" />
     </module>
     <module name="RegexpSinglelineJava">
-      <property name="format" value="^(?!\s*import static java\.lang\.Boolean\.(?:TRUE|FALSE)\s*;).*\bBoolean\.(TRUE|FALSE)\b" />
+      <property name="format" value="^(?!\s*import\s+static\s+java\.lang\.Boolean\.(?:TRUE|FALSE)\s*;).*\bBoolean\.(TRUE|FALSE)\b" />
       <property name="message" value="Use the static-imported TRUE/FALSE instead of Boolean.TRUE/Boolean.FALSE." />
       <property name="ignoreComments" value="true" />
     </module>
