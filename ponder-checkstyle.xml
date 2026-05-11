@@ -38,6 +38,11 @@
       <property name="message" value="Indent must use tab characters" />
       <property name="ignoreComments" value="true" />
     </module>
+    <module name="RegexpSinglelineJava">
+      <property name="format" value="(?&lt;!\.lang\.)Boolean\.(TRUE|FALSE)" />
+      <property name="message" value="Use the static-imported TRUE/FALSE instead of Boolean.TRUE/Boolean.FALSE." />
+      <property name="ignoreComments" value="true" />
+    </module>
     <module name="OuterTypeFilename" />
     <module name="IllegalTokenText">
       <property name="tokens" value="STRING_LITERAL, CHAR_LITERAL" />
