@@ -291,6 +291,7 @@
       <property name="accessModifiers" value="public, protected, package, private" />
       <property name="allowMissingParamTags" value="false" />
       <property name="allowMissingReturnTag" value="false" />
+      <property name="validateThrows" value="true" />
       <property name="allowedAnnotations" value="Override, Test" />
       <property name="tokens" value="METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF, COMPACT_CTOR_DEF" />
     </module>
